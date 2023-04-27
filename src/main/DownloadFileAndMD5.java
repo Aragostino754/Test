@@ -87,7 +87,7 @@ public class DownloadFileAndMD5 {
 	
 	public URL getURL() { //gets the file URL
 		try {
-			return new URL ("http://files.grouplens.org/datasets/movielens/ml-20m-youtube.zip");//("http://files.grouplens.org/datasets/movielens/ml-25m.zip");
+			return new URL ("http://files.grouplens.org/datasets/movielens/ml-25m.zip");//("http://files.grouplens.org/datasets/movielens/ml-25m.zip");
 		}catch (MalformedURLException me) {
 			me.printStackTrace();
 		}//catch
@@ -96,7 +96,7 @@ public class DownloadFileAndMD5 {
 	
 	public URL getURLMD5() { //gets the MD5 URL
 		try {
-			return new URL("http://files.grouplens.org/datasets/movielens/ml-20m-youtube.zip.md5"); //("http://files.grouplens.org/datasets/movielens/ml-25m.zip.md5");
+			return new URL("http://files.grouplens.org/datasets/movielens/ml-25m.zip.md5"); //("http://files.grouplens.org/datasets/movielens/ml-25m.zip.md5");
 		}catch (MalformedURLException me) {
 			me.printStackTrace();
 		}//catch
